@@ -5,7 +5,7 @@ LABEL version="1.0"
 LABEL description="This is a Dockerfile to \
 autogenerate a fabric minecraft server."
 LABEL com.virtualeria.authors="apalfonso23@gmail.com"
-LABEL org.opencontainers.image.source="https://github.com/VirtualEriaLabs/docker-docker-fabric-server"
+LABEL org.opencontainers.image.source="https://github.com/VirtualEriaLabs/docker-fabric-server"
 
 ARG DEBIAN_FRONTEND=noninteractive
 
