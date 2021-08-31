@@ -18,6 +18,6 @@ jobs:
 
     - name: Build the Docker image
       run: |
-        docker build . --tag ghcr.io/VirtualEriaLabs/fabric-server:latest
-        docker run ghcr.io/VirtualEriaLabs/fabric-server:latest
-        docker push ghcr.io/VirtualEriaLabs/fabric-server:latest
+        docker build . --tag ghcr.io/virtualerialabs/fabric-server:latest
+        docker run ghcr.io/virtualerialabs/fabric-server:latest
+        docker push ghcr.io/virtualerialabs/fabric-server:latest
